@@ -111,36 +111,23 @@
     </article>
     <article class="form-contact">
 
-    <fieldset>
-        <legend class="contact">Nogus contacter</legend>
-
-        <form action="" method="POST">
-            <div class="label-nom">
-                <label for="nom">Nom</label>
-                <input type="text" name="Nom" id="Nom" required>
-            </div>
-            <div class="label-prenom">
-                <label for="Prenom">Prénom</label>
-                <input type="text" name="Prenom" id="Prenom" required>
-            </div>
-            <div class="label-email">
-                <label for="Email">Email</label>
-                <input type="text" name="Email" id="Email" required>
-            </div>
-            <div class="label-telephone">
-                <label for="Téléphone">Téléphone</label>
-                <input type="text" name="Téléphone" id="Téléphone" required>
-            </div>
-            <div class="label-message">
-                <label for="Votre message">Votre message</label>
-                <input type="text" name="Votre message" id="Votre message" required>
-            </div>
-        </form>
-    </fieldset>
-        <input class="bouton-envoyer"
-       type="button"
-       value="Envoyer">
+        <form action="#" method="POST">
+          <fieldset>
+            <legend>Contact</legend>
+              <label for="nom">Nom</label>
+              <input id="nom" placeholder="Serre" autofocus="" required=""><br>
+              <label for="nom">Prénom</label>
+              <input id="nom" placeholder="Olivier" autofocus="" required=""><br>
+              <label for="telephone">Portable</label>
+              <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="prenom.nom@gmail.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
+              <label for="comments">Message</label>
+      <textarea id="comments"></textarea>
+          </fieldset>
+        <input class="bouton-envoyer" type="submit" value="Envoyer">
     </article>
+
     <footer class="footer">
         <div class="design">
             <p>Design Yaelxy copyright bisous</p>
