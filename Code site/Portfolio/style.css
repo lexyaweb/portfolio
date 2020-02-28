@@ -78,6 +78,12 @@
 .titre1 h2 {
     padding-bottom: 30px;
 }
+.button-portfolio {
+    
+    border-radius: 45px;
+    text-align: center;
+    
+}
 /*----------------------------------------------------
 ---------------------bouton flêche bas--------------------- */
 .circle{
