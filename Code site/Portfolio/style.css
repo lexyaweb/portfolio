@@ -396,9 +396,9 @@ p {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-right:3px;
     }
     .copyright-icon{
         height: 20px;
         width: 20px;
+        padding-left: 8px;
     }
