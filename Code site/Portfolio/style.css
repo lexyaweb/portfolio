@@ -392,3 +392,13 @@ p {
         padding-left: 40px;
         padding-top: 10px;
     }
+    .design{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right:3px;
+    }
+    .copyright-icon{
+        height: 20px;
+        width: 20px;
+    }
