@@ -115,16 +115,22 @@
             <form action="#" method="POST">
             <fieldset>
                 <legend>Contact</legend>
-                    <label for="nom">Nom</label>
-                    <input id="nom" placeholder="Serre" autofocus="" required=""><br>
-                    <label for="prenom">Prénom</label>
-                    <input id="prenom" placeholder="Olivier" autofocus="" required=""><br>
-                    <label for="telephone">Portable</label>
-                    <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
-                    <label for="email">Email</label>
-                    <input id="email" type="email" placeholder="prenom.nom@gmail.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
-                    <label for="comments">Message</label>
-                <textarea id="comments"></textarea>
+                    <div class="contact-name">
+                        <label for="nom">Nom</label>
+                        <input id="nom" placeholder="Serre" autofocus="" required=""><br>
+                        <label for="prenom">Prénom</label>
+                        <input id="prenom" placeholder="Olivier" autofocus="" required=""><br>
+                    </div>
+                    <div class="contact-phone">
+                        <label for="telephone">Portable</label>
+                        <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="prenom.nom@gmail.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
+                    </div>
+                    <div class="contact-comments">
+                        <label for="comments">Message</label>
+                        <textarea id="comments"></textarea>
+                    </div>
             </fieldset>
             <input class="bouton-envoyer" type="submit" value="Envoyer">
             </form>
