@@ -340,14 +340,14 @@ input:focus{
 }
    
 input, textarea{
-    
     height: 30px;
     border-radius: 8px;
+    width: 200px;
 }
    
 textarea{
     height: 100px;
-    width: 249px;
+    width: 425px;
 }
    
 select{
@@ -356,7 +356,7 @@ select{
    
 input[type=submit]{
     width: 150px;
-    padding: 10px;
+    padding: px;
 }
 
 .form-contact{
@@ -372,6 +372,8 @@ input[type=submit]{
       display: flex;
       flex-direction: row;
       justify-content: center;
+      margin-bottom: 15px;
+      padding: 10px;
 }
 
 .name-email{
@@ -387,6 +389,7 @@ input[type=submit]{
 .name{
       display: flex;
       flex-direction: column;
+      padding-right: 25px;
 }
 
 .mail{
@@ -397,6 +400,7 @@ input[type=submit]{
 .surname{
     display: flex;
     flex-direction: column;
+    padding-right: 25px;
 }
 
 .tel{
