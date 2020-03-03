@@ -87,10 +87,11 @@
 }
 
 .titre1 h1{
-    padding: 30px;
+    padding: 50px;
     color: #FFFFFF;
     font-size: 40px;
     font-family: Segoe UI;
+    margin-top: 130px;
 }
 
 .titre1 h2{
@@ -128,7 +129,7 @@
     width: 80px;
     height: 80px;
     position: absolute;
-    top :660px;
+    top :720px;
 }
 
 #bottom-arrow{
@@ -156,9 +157,10 @@
 /*------------------- PARTIE COMPETENCES ------------------------------*/
         
 .compleft {
-    margin-top: 280px;
+    margin-top: 167px;
+    padding-top: 90px;
     background-color: #E1E1E1;
-    height: 400px;
+    height: 600px;
     width: 50%;
 }
 
@@ -218,7 +220,8 @@
 }
 
 .compright{
-    margin-top: 280px;
+    margin-top: 167px;
+    padding-top: 90px;
     background-color:  #FFFFFF;
     height: 400px;
     width: 50%;
@@ -268,7 +271,7 @@
 
 .cadre{
     width: 100%;
-    height: 300px;
+    height: 500px;
     background-color: #29AFEB;
 }
 
@@ -276,7 +279,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .toolalign{
@@ -340,9 +343,10 @@
 
 .creation{
     color: #0B485D;
-    font-size: 30px;
+    font-size: 35px;
     font-family: Segoe UI;
     font-weight: bold;
+    margin-top: 60px;
 }
 
 .bloc-creation{
