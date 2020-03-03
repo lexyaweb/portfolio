@@ -113,23 +113,25 @@
     top :720px;
     
 }
-.circle img {
+#bottom-arrow{
     height: 25px;
     width: 64px;
     position: absolute;
     top:29px;
     left: 9px;
     right: 2px;
-    
 }
-
+.circle a:hover{
+    height: 25px;
+    width: 64px;
+    position: absolute;
+    top:12px;
+}
 .buttondown {
     display: flex;
     flex-direction:row;
-    justify-content: center;
-   
+    justify-content: center;  
 }
-
 /*----------------------------------------------------------------------------
 --------------------------partie compétences---------------------------------*/
                        /*Titre compétences*/
