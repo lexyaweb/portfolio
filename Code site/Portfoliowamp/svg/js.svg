@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="96" viewBox="0 0 390 96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4dec;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 61px;
+        font-family: SegoeScript-Bold, Segoe Script;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="js" transform="translate(-132 -1465)">
+    <g id="Rectangle_21" data-name="Rectangle 21" class="cls-1" transform="translate(132 1465)">
+      <rect class="cls-3" width="390" height="89" rx="44.5"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="389" height="88" rx="44"/>
+    </g>
+    <text id="Javascript" class="cls-2" transform="translate(325 1531)"><tspan x="-169.284" y="0">Javascript</tspan></text>
+  </g>
+</svg>
