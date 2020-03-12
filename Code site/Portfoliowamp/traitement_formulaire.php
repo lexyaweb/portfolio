@@ -54,8 +54,7 @@
     	// On va vérifier les variables et l'email ...
     	$email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
      
-    	if (($nom != '') && ($prenom != '') && ($email != '') && ($objet != '') && ($message != ''))
-    	{
+    	if (($nom != '') && ($prenom != '') && ($email != '') && ($objet != '') && ($message != '')){
     		// les 4 variables sont remplies, on génère puis envoie le mail
     		$headers  = 'MIME-Version: 1.0' . "\r\n";
     		$headers .= 'From:'.$nom.' <'.$email.'>' . "\r\n" .
@@ -66,12 +65,10 @@
     				'X-Mailer:PHP/'.phpversion();
      
     		// envoyer une copie au visiteur ?
-    		if ($copie == 'oui')
-    		{
+    		if ($copie == 'oui'){
     			$cible = $destinataire.';'.$email;
     		}
-    		else
-    		{
+    		else{
     			$cible = $destinataire;
     		};
      
@@ -88,23 +85,19 @@
     		// Envoi du mail
     		$num_emails = 0;
     		$tmp = explode(';', $cible);
-    		foreach($tmp as $email_destinataire)
-    		{
+    		foreach($tmp as $email_destinataire){
     			if (mail($email_destinataire, $objet, $message, $headers))
     				$num_emails++;
     		}
      
-    		if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1)))
-    		{
+    		if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1))){
     			echo '<p>'.$message_envoye.'</p>';
     		}
-    		else
-    		{
+    		else{
     			echo '<p>'.$message_non_envoye.'</p>';
     		};
     	}
-    	else
-    	{
+    	else{
     		// une des 3 variables (ou plus) est vide ...
     		echo '<p>'.$message_formulaire_invalide.' <a href="contact.html">Retour au formulaire</a></p>'."\n";
     	};
