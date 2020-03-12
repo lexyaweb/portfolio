@@ -35,7 +35,6 @@
             <div class="button-portfolio">
                 <p><a href="#">Portfolio</a></p>
             </div>
-
         </div>
 
         <div class="buttondown">
@@ -64,9 +63,7 @@
                     </ul>
                 </div>
         </section>
-
         <section class="compright">
-
             <div class="tool">
                 <img class="icontool" src="svg/Icontool.svg" alt="Icon tool">
                 <h2 class="title-tool">Nos Outils</h2>
@@ -82,75 +79,14 @@
         </section>
     </section>
 
-    <article>
-        <div class="cadre">
+    <?php require ("presentation.php") ?>
 
-            <div class="presentation-title" id="aboutUs-link">
-                <div class="presentation">
-                    <div class="texte-present">
-                        <div class="toolalign">
-                            <img class="logopresentation" src="svg/logocomp.svg" alt="logo compétence">
-                            <h3>A propos de nous</h3>
-                        </div>
-                        <p>Alexia & Yael HUE, respectivement 26 et 32 ans, nous sommes 2 développeur, en plein apprentissage.
-                        Back end et front end rien ne nous échappe !
-                        Nous sommes originaire du sud de la de la France.</p>
-                    </div>
-                    <div class="image-present">
-                        <img src="Img/yael.png" alt="yael développeur">   
-                        <img src="Img/alexia.png" alt="alexia développeur">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </article>
     <article>
         <div class="bloc-creation">
             <h3 class="creation" id="creation-link">Nos créations</h3>
         </div>
     </article>
     
-    <article class="form-contact">
-        <div class="form-contactin">
-            <form action="traitement_formulaire.php" method="POST">
-                <fieldset>
-                    <legend id="contactlink">Contact</legend>
-                        <div class="name-email">
-                            <div class="name">
-                                <label for="nom">Nom</label>
-                                <input id="nom" placeholder="Serre" autofocus="" required=""><br><br>
-                            </div>
-                            <div class="mail">
-                                <label for="email">Email</label>
-                                <input id="email" type="email" placeholder="prenom.nom@gmail.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br><br>
-                            </div>
-                        </div>  
-                        <div class="surname-tel">
-                            <div class="surname">
-                                <label for="prenom">Prénom</label>
-                                <input id="prenom" placeholder="Olivier" autofocus="" required=""><br><br>
-                            </div>
-                            <div class="tel">
-                                <label for="telephone">N° téléphone</label>
-                                <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br><br>
-                            </div>
-                        </div>
-                        <div class="message">
-                            <label for="comments">Message</label>
-                            <textarea id="comments"></textarea>
-                        </div>
-                </fieldset>
-                <span class="btn-align"><input class="bouton-envoyer" type="submit" value="Envoyer"><img class="icon-email" src="svg/ic_email_24px.svg" alt="icon-email"></span>
-            </form>
-        </div>
-    </article>
-
-    <footer class="footer">
-        <div class="design">
-            <p id="bottom-page">Design Yaelxy copyright</p>
-            <img class="copyright-icon" src="svg/copyright.svg" alt="copyright">
-        </div>
-    </footer>
-</body>
-</html>
+    <?php require("contact.php"); ?>
+    
+    <?php require("footer.php"); ?>
