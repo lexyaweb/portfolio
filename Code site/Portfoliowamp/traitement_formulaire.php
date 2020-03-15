@@ -121,4 +121,4 @@
     		echo '<p>'.$message_formulaire_invalide.' <a href="contact.html">Retour au formulaire</a></p>'."\n";
     	};
     }; // fin du if (!isset($_POST['envoi']))
-    ?>
+?>
