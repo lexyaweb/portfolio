@@ -1,13 +1,38 @@
-<form id="contact" method="post" action="traitement_formulaire.php">
-    	<fieldset><legend>Vos coordonnées</legend>
-    		<p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" /></p>
-    		<p><label for="email">Email :</label><input type="text" id="email" name="email" /></p>
-    	</fieldset>
-     
-    	<fieldset><legend>Votre message :</legend>
-    		<p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" /></p>
-    		<p><label for="message">Message :</label><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
-    	</fieldset>
-     
-    	<div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
-    </form>
+<article class="form-contact">
+    <div class="form-contactin">
+        <form action="traitement_formulaire.php" method="POST">
+            <fieldset>
+                <legend id="contactlink">Contact</legend>
+                    <div class="name-email">
+                        <div class="name">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" name="nom" placeholder="Serre" required=""><br><br>
+                        </div>
+                        <div class="mail">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="prenom.nom@gmail.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@gmail.com"><br><br>
+                        </div>
+                    </div>  
+                    <div class="surname-tel">
+                        <div class="surname">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Olivier" autofocus="" required=""><br><br>
+                        </div>
+                        <div class="tel">
+                            <label for="telephone">N° téléphone</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br><br>
+                        </div>
+                    </div><br>
+					<div class="objet">
+                            <label for="objet">Objet</label>
+                            <input type="text" id="objet" name="objet" placeholder=""><br><br>
+                        </div>
+                    <div class="message">
+                        <label for="comments">Message</label>
+                        <textarea type="text" id="comments" name="message"></textarea>
+                    </div>
+            </fieldset>
+            <span class="btn-align"><input class="bouton-envoyer" type="submit" value="Envoyer" name="envoi"><img class="icon-email" src="svg/ic_email_24px.svg" alt="icon-email"></span>
+        </form>
+    </div>
+</article>
