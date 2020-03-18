@@ -407,7 +407,7 @@ input[type=submit]{
 .form-contact{
       width: 100%;
       height: 500px;
-      background-color: #1294B2;
+      background-image:linear-gradient(60deg, #18bef5, #ac65f7);
       display: flex;
       flex-direction: column;
       align-content: center;
