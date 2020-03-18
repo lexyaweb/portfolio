@@ -1,11 +1,9 @@
 <?php
-    /*
-    	********************************************************************************************
+    /*  **********************************
     	CONFIGURATION
-    	********************************************************************************************
-    */
+    	**********************************  */
     // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
-    $destinataire = 'moi@moi.tld';
+    $destinataire = 'afontraille@gmail.com';
      
     // copie ? (envoie une copie au visiteur)
     $copie = 'oui'; // 'oui' ou 'non'
@@ -15,14 +13,12 @@
     $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
      
     // Messages d'erreur du formulaire
-    $message_erreur_formulaire = "Vous devez d'abord <a href=\"contact.html\">envoyer le formulaire</a>.";
+    $message_erreur_formulaire = "Vous devez d'abord <a href=\"index.php\">envoyer le formulaire</a>.";
     $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
      
-    /*
-    	********************************************************************************************
+    /*  ***********************************
     	FIN DE LA CONFIGURATION
-    	********************************************************************************************
-    */
+    	**********************************  */
      
     // on teste si le formulaire a été soumis
     if (!isset($_POST['envoi']))
@@ -47,9 +43,7 @@
     		return $text;
     	};
      
-    	/*
-    	 * Cette fonction sert à vérifier la syntaxe d'un email
-    	 */
+    	/* Cette fonction sert à vérifier la syntaxe d'un email */
     	function IsEmail($email)
     	{
     		$value = preg_match('/^(?:[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+\.)*[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+@(?:(?:(?:[a-zA-Z0-9_](?:[a-zA-Z0-9_\-](?!\.)){0,61}[a-zA-Z0-9_-]?\.)+[a-zA-Z0-9_](?:[a-zA-Z0-9_\-](?!$)){0,61}[a-zA-Z0-9_]?)|(?:\[(?:(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\.){3}(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\]))$/', $email);
@@ -57,15 +51,17 @@
     	}
      
     	// formulaire envoyé, on récupère tous les champs.
-    	$nom     = (isset($_POST['nom']))     ? Rec($_POST['nom'])     : '';
-    	$email   = (isset($_POST['email']))   ? Rec($_POST['email'])   : '';
+		$nom     = (isset($_POST['nom']))     ? Rec($_POST['nom'])     : '';
+		$prenom  = (isset($_POST['prenom']))  ? Rec($_POST['prenom'])  : '';
+		$email   = (isset($_POST['email']))   ? Rec($_POST['email'])   : '';
+		$tel     = (isset($_POST['tel']))     ? Rec($_POST['tel'])     : '';
     	$objet   = (isset($_POST['objet']))   ? Rec($_POST['objet'])   : '';
     	$message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
      
     	// On va vérifier les variables et l'email ...
     	$email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
      
-    	if (($nom != '') && ($email != '') && ($objet != '') && ($message != ''))
+    	if (($nom != '') && ($prenom != '') && ($email != '') && ($tel != '') && ($objet != '') && ($message != ''))
     	{
     		// les 4 variables sont remplies, on génère puis envoie le mail
     		$headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -101,7 +97,6 @@
     		$tmp = explode(';', $cible);
     		foreach($tmp as $email_destinataire)
     		{
-                //admin@wampserver.invalid
     			if (mail($email_destinataire, $objet, $message, $headers))
     				$num_emails++;
     		}
@@ -118,7 +113,7 @@
     	else
     	{
     		// une des 3 variables (ou plus) est vide ...
-    		echo '<p>'.$message_formulaire_invalide.' <a href="contact.html">Retour au formulaire</a></p>'."\n";
+    		echo '<p>'.$message_formulaire_invalide.' <a href="index.php">Retour au formulaire</a></p>'."\n";
     	};
     }; // fin du if (!isset($_POST['envoi']))
 ?>
