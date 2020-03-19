@@ -20,8 +20,8 @@
             </div>
             <nav class="menu">
                 <ul>
-                    <li><a href="#accueil" class="Accueil">Accueil</a></li>
-                    <li><a href="#contactlink">Contact</a></li>
+                    <li><a href="#" class="Accueil">Accueil</a></li>
+                    <li><a href="#" class="contactlink">Contact</a></li>
                     <li><a href="#creation-link" class="creation-title">Nos créations</a></li>
                     <li><a href="#aboutUs-link" class="aboutUs">A propos de nous</a></li>
                 </ul>
