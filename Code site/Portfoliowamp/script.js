@@ -22,14 +22,26 @@ function smoothScroll(target,duration) {
     requestAnimationFrame(animation);
 }
 
-let accueil = document.querySelector('.Accueil');
-
-accueil.addEventListener('click',function() {
-    smoothScroll('.design', 2000);
-});
-
 let contact = document.querySelector('.contactlink'); 
 
 contact.addEventListener('click',function() {
     smoothScroll('.form-contact', 2000);
+});
+
+let footer = document.querySelector('#bottom-arrow');
+
+footer.addEventListener('click',function() {
+    smoothScroll('.design', 2000);
+});
+
+let creation = document.querySelector('.creation-title');
+
+creation.addEventListener('click',function(){
+    smoothScroll('.creation', 2000);
+});
+
+let about = document.querySelector('.aboutUs');
+
+about.addEventListener('click',function(){
+    smoothScroll('.presentation-title', 2000);
 });
