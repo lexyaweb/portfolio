@@ -22,8 +22,8 @@
                 <ul>
                     <li><a href="#" class="Accueil">Accueil</a></li>
                     <li><a href="#" class="contactlink">Contact</a></li>
-                    <li><a href="#creation-link" class="creation-title">Nos créations</a></li>
-                    <li><a href="#aboutUs-link" class="aboutUs">A propos de nous</a></li>
+                    <li><a href="#" class="creation-title">Nos créations</a></li>
+                    <li><a href="#" class="aboutUs">A propos de nous</a></li>
                 </ul>
             </nav>
         </div>
