@@ -6,7 +6,7 @@ function smoothScroll(target,duration) {
     let startTime = null;
     console.log(startPosition);
 
-    function animationScroll(currentTime){
+    function animation(currentTime){
         if(startTime === null) startTime = currentTime;
         let timeElaspsed = currentTime - startTime;
         let run = ease(timeElaspsed,startPosition,distance,duration);
@@ -22,9 +22,14 @@ function smoothScroll(target,duration) {
     requestAnimationFrame(animation);
 }
 
-let accueil = document.querySelector('#accueil');
+let accueil = document.querySelector('.Accueil');
 
-accueil.addEventListener('click', function()) {
-    smoothScroll('.design', 1000);
-}
+accueil.addEventListener('click',function() {
+    smoothScroll('.design', 2000);
+});
 
+let contact = document.querySelector('.contactlink'); 
+
+contact.addEventListener('click',function() {
+    smoothScroll('.form-contact', 2000);
+});
