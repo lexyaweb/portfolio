@@ -22,6 +22,12 @@ function smoothScroll(target,duration) {
     requestAnimationFrame(animation);
 }
 
+let accueil = document.querySelector('.Accueil'); 
+
+accueil.addEventListener('click',function() {
+    smoothScroll('.comp', 2000);
+});
+
 let contact = document.querySelector('.contactlink'); 
 
 contact.addEventListener('click',function() {
