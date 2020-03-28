@@ -51,3 +51,6 @@ let about = document.querySelector('.aboutUs');
 about.addEventListener('click',function(){
     smoothScroll('.presentation-title', 2000);
 });
+
+
+
