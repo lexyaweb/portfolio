@@ -54,3 +54,9 @@ about.addEventListener('click',function(){
 
 
 
+const btn = document.querySelector('.btn');
+
+btn.addEventListener('click', () => {
+    smoothScroll('.header',1500);
+});
+
