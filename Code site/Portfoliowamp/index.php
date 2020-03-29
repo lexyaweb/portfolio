@@ -87,8 +87,8 @@
             <h3 class="creation" id="creation-link">Nos créations</h3>
         </div>
     </article>
-    
-     <!--require("contact.php"); -->
+ 
+     <?php require("contact.php");  ?>
     
     
     <?php require("footer.php"); ?> 
