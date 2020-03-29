@@ -6,6 +6,8 @@ function smoothScroll(target,duration) {
     let startTime = null;
     console.log(startPosition);
 
+
+
     function animation(currentTime){
         if(startTime === null) startTime = currentTime;
         let timeElaspsed = currentTime - startTime;
@@ -13,6 +15,8 @@ function smoothScroll(target,duration) {
         window.scrollTo(0,run);
         if(timeElaspsed < duration) requestAnimationFrame(animation);
     }
+
+
     function ease(t, b, c, d) {
         t /= d/2;
         if (t < 1) return c / 2 * t * t + b;
@@ -21,6 +25,8 @@ function smoothScroll(target,duration) {
     }
     requestAnimationFrame(animation);
 }
+
+
 
 let accueil = document.querySelector('.Accueil'); 
 
