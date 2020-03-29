@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div class="btn"><img src="svg/arrow-up-solid.svg" class="icone"></i></div>
     <header>
 
             <img class="img1" src="Img/mountain.jpg" alt="background 4k">   
@@ -86,9 +87,10 @@
             <h3 class="creation" id="creation-link">Nos créations</h3>
         </div>
     </article>
+ 
+     <!--require("contact.php"); -->
     
-    <?php require("contact.php"); ?>
     
-    <?php require("footer.php"); ?>
-    <script type="text/javascript" src="script.js"></script>
+    <?php require("footer.php"); ?> 
+    <script type="text/javascript" src="script.js"></script> 
     
