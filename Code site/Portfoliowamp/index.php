@@ -88,7 +88,7 @@
         </div>
     </article>
  
-     <?php require("contact.php"); ?>
+     <?php require("contact.php"); 
     
     
     <?php require("footer.php"); ?> 
