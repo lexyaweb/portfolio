@@ -16,7 +16,7 @@
                     <div class="surname-tel">
                         <div class="surname">
                             <label for="prenom">Prénom</label>
-                            <input type="text" id="prenom" name="prenom" placeholder="Olivier" autofocus="" required=""><br><br>
+                            <input type="text" id="prenom" name="prenom" placeholder="Olivier"><br><br>
                         </div>
                         <div class="tel">
                             <label for="telephone">N° téléphone</label>
