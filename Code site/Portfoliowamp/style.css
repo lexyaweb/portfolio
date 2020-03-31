@@ -481,6 +481,7 @@ input[type="submit"].bouton-envoyer:hover{
         padding-left: 8px;
     }
 
+<<<<<<< HEAD
     .menu li a{
         text-decoration: none;
         color: white;
@@ -497,6 +498,20 @@ input[type="submit"].bouton-envoyer:hover{
     .logo img{
         padding-right: 30px;
         padding-left: 10px;
+=======
+        /* hamburger */
+
+    #hamburger, #hamburger-content {
+        display: inline;
+    }  
+
+    #hamburger-button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 30px;
+        
+>>>>>>> 7f48b1e0803b8a7d06174a0c1b0d3ee86798711c
     }
 
 
