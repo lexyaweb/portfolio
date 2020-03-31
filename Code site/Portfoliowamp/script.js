@@ -66,3 +66,4 @@ btn.addEventListener('click', () => {
     smoothScroll('.header',1500);
 });
 
+let content  = document.querySelector('#hamburger-content');
