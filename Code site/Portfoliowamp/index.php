@@ -35,7 +35,7 @@
             </div>
             <script>
                 function myFunction() {
-                    var x = document.getElementById("myLinks");
+                    let x = document.getElementById("myLinks");
                     if (x.style.display === "block") {
                         x.style.display = "none";
                     } else {
@@ -104,7 +104,11 @@
         </div>
     </article>
  
+<<<<<<< HEAD
      <?php require("contact.php"); ?>
+=======
+     <?php require("contact.php");  ?>
+>>>>>>> 7f48b1e0803b8a7d06174a0c1b0d3ee86798711c
     
     
     <?php require("footer.php"); ?> 
