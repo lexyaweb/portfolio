@@ -539,6 +539,22 @@ input[type="submit"].bouton-envoyer:hover{
         padding-left: 8px;
     }
 
+        /* hamburger */
+
+    #hamburger, #hamburger-content {
+        display: inline;
+    }  
+
+    #hamburger-button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 30px;
+        
+    }
+
+
+
 /* RESPONSIVE TEST */
 
 @media screen and (min-width: 900px) { 
