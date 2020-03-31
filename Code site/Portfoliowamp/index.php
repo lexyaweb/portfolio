@@ -9,9 +9,7 @@
 <body>
     <div class="btn"><img src="svg/arrow-up-solid.svg" class="icone"></i></div>
     <header>
-
-            <img class="img1" src="Img/mountain.jpg" alt="background 4k">   
-
+        <img class="img1" src="Img/mountain.jpg" alt="background 4k">   
         <div class="header">
             <div class="logo">
                 <ul>
@@ -19,14 +17,32 @@
                     <li class="title">LEXYA-WEB</li>
                 </ul>
             </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#" class="Accueil">Accueil</a></li>
-                    <li><a href="#" class="contactlink">Contact</a></li>
-                    <li><a href="#" class="creation-title">Nos créations</a></li>
-                    <li><a href="#" class="aboutUs">A propos de nous</a></li>
-                </ul>
-            </nav>
+            <div class="mobile-container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#home" class="active">Menu</a></li>
+                        <div id="myLinks">
+                            <li><a href="#" class="Accueil">Accueil</a></li>
+                            <li><a href="#" class="contactlink">Contact</a></li>
+                            <li><a href="#" class="creation-title">Nos créations</a></li>
+                            <li><a href="#" class="aboutUs">A propos de nous</a></li>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
         </div>
 
         <div class="titre1">
@@ -88,7 +104,7 @@
         </div>
     </article>
  
-     <?php require("contact.php"); 
+     <?php require("contact.php"); ?>
     
     
     <?php require("footer.php"); ?> 
