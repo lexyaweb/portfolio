@@ -19,14 +19,24 @@
                     <li class="title">LEXYA-WEB</li>
                 </ul>
             </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#" class="Accueil">Accueil</a></li>
-                    <li><a href="#" class="contactlink">Contact</a></li>
-                    <li><a href="#" class="creation-title">Nos créations</a></li>
-                    <li><a href="#" class="aboutUs">A propos de nous</a></li>
-                </ul>
-            </nav>
+            <div id="hamburger">
+                <div id="hamburger-content">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#" class="Accueil">Accueil</a></li>
+                            <li><a href="#" class="contactlink">Contact</a></li>
+                            <li><a href="#" class="creation-title">Nos créations</a></li>
+                            <li><a href="#" class="aboutUs">A propos de nous</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <button id="hamburger-button">&#9776;</button>
+            <div id="hamburger-sidebar">
+                <div id="hamburger-sidebar-header"></div>
+                <div id="hamburger-sidebar-body"></div> 
+            </div>
+            <div id="hamburger-overlay"></div>
         </div>
 
         <div class="titre1">
