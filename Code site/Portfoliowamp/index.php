@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lexya-Web</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     <div class="btn"><img src="svg/arrow-up-solid.svg" class="icone"></i></div>
@@ -20,6 +21,9 @@
             <div class="mobile-container">
                 <nav class="menu">
                     <ul>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
                         <li><a href="#home" class="active">Menu</a></li>
                         <div id="myLinks">
                             <li><a href="#" class="Accueil">Accueil</a></li>
@@ -27,9 +31,6 @@
                             <li><a href="#" class="creation-title">Nos créations</a></li>
                             <li><a href="#" class="aboutUs">A propos de nous</a></li>
                         </div>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
-                        </a>
                     </ul>
                 </nav>
             </div>
