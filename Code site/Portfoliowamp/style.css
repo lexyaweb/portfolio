@@ -515,13 +515,6 @@ input[type="submit"].bouton-envoyer:hover{
 
 /* ECRAN SMARTPHONE */
 @media screen and (max-width: 480px){
-    .mobile-container {
-        max-width: 480px;
-        margin: auto;
-        height: 500px;
-        color: white;
-        border-radius: 10px;
-    }
     .menu {
         overflow: hidden;
         position: relative;
@@ -548,7 +541,10 @@ input[type="submit"].bouton-envoyer:hover{
         color: black;
     }
     .active {
-        background-color: #4CAF50;
         color: white;
+        border-color: darkblue;
+    }
+    .logo{
+        display: none;
     }
 }
