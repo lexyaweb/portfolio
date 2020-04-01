@@ -542,7 +542,6 @@ input[type="submit"].bouton-envoyer:hover{
     }
     .active {
         color: white;
-        border-color: darkblue;
     }
     .logo{
         display: none;
