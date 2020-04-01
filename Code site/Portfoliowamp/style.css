@@ -547,4 +547,90 @@ input[type="submit"].bouton-envoyer:hover{
     .logo{
         display: none;
     }
+     /* partie contact */
+    
+     p{
+        margin-top: 0px;
+    }
+    fieldset{
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+    legend{
+        padding: 0px 3px;
+        font-weight: bold;
+        font-variant: small-caps;
+        font-size: 25px;
+        margin: 8px auto;
+        text-align: center;
+    }
+    label{
+        width: 110px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 6px;
+    }
+    input:focus{
+        background: #eaeaea;
+    }
+    input, textarea{
+        height: 30px;
+        border-radius: 8px;
+        width: 150px;
+    }
+    textarea{
+        height: 100px;
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    input[type=submit]{
+        width: 150px;
+    }
+    .form-contact{
+          width: 100%;
+          height: 500px;
+          background-image:linear-gradient(60deg, #18bef5, #ac65f7);
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+    }
+    .form-contactin{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-bottom: 15px;
+          padding: 10px;
+    }
+    .name-email{
+          display: flex;
+          flex-direction: row;
+    }
+    .surname-tel{
+        display: flex;
+        flex-direction: row;
+    }
+    .name{
+          display: flex;
+          flex-direction: column;
+          padding-right: 25px;
+    }
+    .mail{
+        display: flex;
+        flex-direction: column;
+    }
+    .surname{
+        display: flex;
+        flex-direction: column;
+        padding-right: 25px;
+    }
+    .tel{
+        display: flex;
+        flex-direction: column;
+    }
+    .message{
+        display: flex;
+        flex-direction: column;   
+    }
 }
