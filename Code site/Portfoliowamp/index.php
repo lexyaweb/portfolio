@@ -9,19 +9,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <div class="btn"><img src="svg/arrow-up-solid.svg" class="icone"></i></div>
+    <img src="svg/arrow-up-solid.svg" class="buttonUp">
     <header>
-        <img class="img1" src="Img/mountain.jpg" alt="background 4k">   
+        <img class="background" src="Img/mountain.jpg" alt="background 4k">   
         <div class="header">
-            <div class="logo">
-                <ul>
+            <nav class="menu">
+                <div class="logo active"><ul>
                     <li><img class="logo-title" src="svg/Groupe 9.svg"></li>
                     <li class="title">LEXYA-WEB</li>
-                </ul>
-            </div>
-            <nav class="menu">
+                </ul></div>
                 <ul>
-                    <span class="active"><img class="logo-title" src="svg/Groupe 9.svg">LEXYA-WEB</span>
                     <div id="myLinks">
                         <li><a href="#" class="Accueil">Accueil</a></li>
                         <li><a href="#" class="contactlink">Contact</a></li>
@@ -33,16 +30,6 @@
                     </a>
                 </ul>
             </nav>
-            <script>
-                function myFunction() {
-                    let x = document.getElementById("myLinks");
-                    if (x.style.display === "block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "block";
-                    }
-                }
-            </script>
         </div>
 
         <div class="titre1">
@@ -63,7 +50,7 @@
         </div>
 
     </header>
-    <section class="comp" id="accueil">
+    <section class="comp">
         <section class="compleft">
 
             <div class="titleskills">
