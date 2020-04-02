@@ -60,9 +60,19 @@ about.addEventListener('click',function(){
 
 
 
-const btn = document.querySelector('.btn');
+const btn = document.querySelector('.buttonUp');
 
 btn.addEventListener('click', () => {
     smoothScroll('.header',1500);
 });
+
+/* Menu hamburger */
+function myFunction() {
+    let x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
 
