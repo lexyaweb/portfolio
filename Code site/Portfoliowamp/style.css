@@ -25,31 +25,31 @@
 }
 
 /* BARRE HAUT */
-.Accueil{
+/*.Accueil{
     margin-top: 120px;
     padding: 15px;
     height: 40px;
-}
+}*/
 
 /* ------------ TITRE H1 & H2 --------------- */
-.titre1{
+.title1{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.titre1 h1{
+.title1 h1{
     padding: 50px;
     color: #FFFFFF;
     font-size: 40px;
     font-family: Segoe UI;
     margin-top: 130px;
 }
-.titre1 h2{
+.title1 h2{
     padding-top: 40px;
     padding-bottom: 10px;
     color: rgb(223, 222, 222);
 }
-.button-portfolio a{
+.buttonPortfolio a{
     border:2px solid rgb(104, 203, 236);
     border-radius: 45px;
     font-weight: bold;
@@ -64,7 +64,7 @@
     margin-top: 90px;
     padding-top: 10px;
 }
-.button-portfolio a:hover{
+.buttonPortfolio a:hover{
     background-color: #0B485D;
     color: white;
 }
