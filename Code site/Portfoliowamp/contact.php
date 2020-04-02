@@ -29,7 +29,7 @@
                         </div>
                     <div class="message">
                         <label for="comments">Message</label>
-                        <textarea type="text" id="comments" name="message"></textarea>
+                        <textarea type="text" id="comments" name="message" placeholder=""></textarea>
                     </div>
             </fieldset>
             <span class="btn-align"><input class="bouton-envoyer" type="submit" value="Envoyer" name="envoi"><img class="icon-email" src="svg/ic_email_24px.svg" alt="icon-email"></span>
