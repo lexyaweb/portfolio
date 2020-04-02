@@ -515,6 +515,7 @@ input[type="submit"].bouton-envoyer:hover{
 
 /* ECRAN SMARTPHONE */
 @media screen and (max-width: 480px){
+    /* MENU */
     .menu {
         overflow: hidden;
         position: relative;
@@ -546,6 +547,9 @@ input[type="submit"].bouton-envoyer:hover{
     .logo{
         display: none;
     }
+    .icon{
+        display: none;
+    }
 
      /* compétence */
 
@@ -565,6 +569,7 @@ input[type="submit"].bouton-envoyer:hover{
     
     
     /* partie presentation */
+    
     .texte-present p {
         display: flexbox;
         flex-direction: row;
