@@ -1,3 +1,4 @@
+/* PEU IMPORTE LES DIMENSIONS DE L'ECRAN */
 *{ margin: 0; padding: 0; box-sizing: border-box; border: none; }
 
 .background{
@@ -31,12 +32,13 @@
     height: 40px;
 }*/
 
-/* ------------ TITRE H1 & H2 --------------- */
+/* TITRE H1 & H2 */
 .title1{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .title1 h1{
     padding: 50px;
     color: #FFFFFF;
@@ -44,11 +46,13 @@
     font-family: Segoe UI;
     margin-top: 130px;
 }
+
 .title1 h2{
     padding-top: 40px;
     padding-bottom: 10px;
     color: rgb(223, 222, 222);
 }
+
 .buttonPortfolio a{
     border:2px solid rgb(104, 203, 236);
     border-radius: 45px;
@@ -56,20 +60,22 @@
     font-size: 18px;
     font-family: Segoe UI;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display:block;
     width: 150px;
     height: 50px;
     text-decoration: none;
     margin-top: 90px;
     padding-top: 10px;
+    background-color: darkgray;
 }
+
 .buttonPortfolio a:hover{
     background-color: #0B485D;
     color: white;
 }
 
-/* ------------- BOUTON FLECHE BAS -------------- */
+/* BOUTON FLECHE BAS */
 .circle{
     background: #29AFEB;
     border-radius: 50%;
@@ -78,6 +84,7 @@
     position: absolute;
     top :720px;
 }
+
 #bottom-arrow{
     height: 25px;
     width: 64px;
@@ -86,28 +93,30 @@
     left: 9px;
     right: 2px;
 }
+
 .circle a:hover{
     height: 25px;
     width: 64px;
     position: absolute;
     top:5px;
 }
+
 .buttondown {
     display: flex;
     flex-direction:row;
     justify-content: center;  
 }
 
-/*------------------- PARTIE COMPETENCES ------------------------------*/       
-.compleft {
+/*---- PARTIE COMPETENCES ----*/       
+.skillLeft{
     margin-top: 167px;
     padding-top: 90px;
     background-color: #E1E1E1;
     height: 600px;
     width: 50%;
 }
-.titleskills{
 
+.titleskills{
     margin-left: 50px;
     padding-bottom: 20px;
     padding-top: 70px;
@@ -117,7 +126,7 @@
     width: 40px;
     margin-right: 30px;
 }
-.skills{
+.skillsInside{
     color: #0B485D;
     font-size: 30px;
     font-family: Segoe UI;
@@ -125,7 +134,7 @@
 }
 
 /* ------------- ALIGNEMENT ZONE COMPETENCE ----------------*/
-.comp{
+.skills{
     display: flex;
     flex-direction: row;
 }
@@ -153,7 +162,7 @@
     margin-left: 50px;
     margin-right: 25px;
 }
-.compright{
+.skillRight{
     margin-top: 167px;
     padding-top: 90px;
     background-color:  #FFFFFF;
@@ -440,10 +449,11 @@ input[type="submit"].bouton-envoyer:hover{
 
 /* GRAND ECRAN */
 @media screen and (min-width: 900px){
-    /*.menu{
-        margin-left: 850px;
-    }*/
-    .menu ul{
+    .menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .menu #myLinks{
         display: flex;
         flex-direction: row;
     }
@@ -461,10 +471,10 @@ input[type="submit"].bouton-envoyer:hover{
         flex-direction: row;
         justify-content: center;
     }
-    .logo ul{
+    .logo{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: left;
     }
     .title{
         padding-top: 26px;
@@ -542,16 +552,16 @@ input[type="submit"].bouton-envoyer:hover{
 
      /* compétence */
 
-    .comp {
+    .skills {
         display: flexbox;
         flex-direction: column;
         justify-content: center;
     }
-    .compleft {
+    .skillLeft {
         display: flexbox;
         flex-direction: row;
     } 
-    .compright {
+    .skillRight {
         display: flexbox;
         flex-direction: row;
     }
