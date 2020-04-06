@@ -25,14 +25,9 @@
     cursor: pointer;
 }
 
-/* BARRE HAUT */
-/*.Accueil{
-    margin-top: 120px;
-    padding: 15px;
-    height: 40px;
-}*/
-
-/* TITRE H1 & H2 */
+/************************************************
+**                 TITRE H1 & H2               **
+************************************************/
 .title1{
     display: flex;
     flex-direction: column;
@@ -53,6 +48,9 @@
     color: rgb(223, 222, 222);
 }
 
+/************************************************
+**               BOUTON PORTFOLIO              **
+************************************************/
 .buttonPortfolio a{
     border:2px solid rgb(104, 203, 236);
     border-radius: 45px;
@@ -75,7 +73,9 @@
     color: white;
 }
 
-/* BOUTON FLECHE BAS */
+/************************************************
+**                BOUTON FLECHE BAS            **
+************************************************/
 .circle{
     background: #29AFEB;
     border-radius: 50%;
@@ -107,12 +107,27 @@
     justify-content: center;  
 }
 
-/*---- PARTIE COMPETENCES ----*/       
+/************************************************
+**               PARTIE COMPETENCES            **
+************************************************/
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+
 .skillLeft{
     margin-top: 167px;
     padding-top: 90px;
     background-color: #E1E1E1;
     height: 600px;
+    width: 50%;
+}
+
+.skillRight{
+    margin-top: 167px;
+    padding-top: 90px;
+    background-color:  #FFFFFF;
+    height: 400px;
     width: 50%;
 }
 
@@ -133,12 +148,6 @@
     font-size: 30px;
     font-family: Segoe UI;
     font-weight: bold;
-}
-
-/* ------------- ALIGNEMENT ZONE COMPETENCE ----------------*/
-.skills{
-    display: flex;
-    flex-direction: row;
 }
 
 /* ------------------- BULLES COMPETENCES ---------------*/
@@ -166,13 +175,7 @@
     margin-right: 25px;
 }
 
-.skillRight{
-    margin-top: 167px;
-    padding-top: 90px;
-    background-color:  #FFFFFF;
-    height: 400px;
-    width: 50%;
-}
+
 
 /* ------------ ESPACE NOS OUTILS ------------- */
 .tool{
@@ -237,10 +240,6 @@
     border-bottom: 2px solid #000;
 }
 
-.texte-present h3{
-    padding-left: 20px;
-}
-
 .logopresentation{
     width: 40px;
     height: 40px;
@@ -253,6 +252,7 @@
     font-size: 30px;
     font-weight: bold;
     color: #0B485D; 
+    padding-left: 20px;
 }
 
 .texte-present p{
@@ -275,8 +275,7 @@
 
 .image-present img{
     width: 200px;
-    height: 200px;
-    margin-right: 55px;
+    height: 200px;  
 }
 
 .texte-present {
@@ -303,9 +302,7 @@
 }
 
 /* ------------------ NOUS CONTACTER ------------------ */
-p{
-    margin-top: 0px;
-}
+p{ margin-top: 0px; }
 
 fieldset{
     margin-bottom: 15px;
@@ -371,6 +368,7 @@ input[type=submit]{
       display: flex;
       flex-direction: row;
 }
+
 .surname-tel{
     display: flex;
     flex-direction: row;
@@ -553,12 +551,12 @@ input[type="submit"].bouton-envoyer:hover{
     header{
         display:flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .menu ul{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .menu li{
@@ -566,17 +564,14 @@ input[type="submit"].bouton-envoyer:hover{
         text-decoration: none;
         list-style: none;
         font-size: 20px;
-        margin-top: 25px;
         padding: 20px;
         color: rgba(255,255,255,1);
     }
 
     .menu #myLinks{
         background-color: orange;
+        border: thick double #32a1ce;
     }
-
-    .menu #myLinks{
-        border: thick double #32a1ce;    }
 
     .icon{
         display: none;
@@ -627,41 +622,36 @@ input[type="submit"].bouton-envoyer:hover{
      /* compétence */
 
     .skills {
-        display: flexbox;
+        display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     .skillLeft {
-        display: flexbox;
+        display: flex;
         flex-direction: row;
     } 
 
     .skillRight {
-        display: flexbox;
+        display: flex;
         flex-direction: row;
     }
     
     /* partie presentation */
     
-    .texte-present p {
-        display: flexbox;
+    .texte-present p{
+        display: flex;
         flex-direction: row;
         align-items: center;
         width: 50%;
     }
 
     .texte-present h3{
-        margin-bottom: 30px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
         font-size: 20px;
-        font-weight: bold;
-        color: #0B485D; 
     }
 
     .presentation-title{
-        display: flexbox;
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -669,11 +659,10 @@ input[type="submit"].bouton-envoyer:hover{
     .cadre{
         width: 50%;
         height: 700px;
-        background-color: #29AFEB;
     }
 
     .image-present {
-        display: flexbox;
+        display: flex;
         flex-direction: row;
         justify-content: center;
     }
@@ -681,43 +670,14 @@ input[type="submit"].bouton-envoyer:hover{
     .image-present img{
         width: 100px;
         height: 100px;
-        margin-right: 55px;
     }
      
      /* partie contact */
-    
-     p{
-        margin-top: 0px;
-    }
-
-    fieldset{
-        margin-bottom: 15px;
-        padding: 10px;
-    }
-
     legend{
-        padding: 0px 3px;
-        font-weight: bold;
-        font-variant: small-caps;
-        font-size: 25px;
-        margin: 8px auto;
         text-align: center;
     }
 
-    label{
-        width: 110px;
-        display: inline-block;
-        vertical-align: top;
-        margin: 6px;
-    }
-
-    input:focus{
-        background: #eaeaea;
-    }
-
     input, textarea{
-        height: 30px;
-        border-radius: 8px;
         width: 150px;
     }
 
@@ -733,7 +693,6 @@ input[type="submit"].bouton-envoyer:hover{
     }
 
     textarea{
-        height: 100px;
         width: 100%;
     }
 
@@ -741,103 +700,20 @@ input[type="submit"].bouton-envoyer:hover{
         width: 100%;
     }
 
-    input[type=submit]{
-        width: 150px;
-    }
-
     .form-contact{
-          width: 100%;
           height: 800px;
-          background-image:linear-gradient(60deg, #18bef5, #ac65f7);
-          display: flex;
-          flex-direction: column;
-          align-content: center;
-    }
-
-    .form-contactin{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          margin-bottom: 15px;
-          padding: 10px;
-    }
-
-    .name-email{
-          display: flex;
-          flex-direction: row;
-    }
-
-    .surname-tel{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .name{
-          display: flex;
-          flex-direction: column;
-          padding-right: 25px;
-    }
-
-    .mail{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .surname{
-        display: flex;
-        flex-direction: column;
-        padding-right: 25px;
-    }
-
-    .tel{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .message{
-        display: flex;
-        flex-direction: column;   
     }
 
     .btn-align{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
         margin-top: 40px;
     }
 
     .bouton-envoyer{
-        border: 1px solid #707070;
-        background-color: #29AFEB ;
-        height: 50px;
         width: 100%;
-        box-shadow: 1px 4px 4px rgba(53, 53, 53, 0.884);
-        border-radius: 45px;
-        font-size: medium;
-        font-weight: bold;
-        color: white; 
-        
-        margin-top: 11px;
-    }
-
-    input[type="submit"].bouton-envoyer:hover{
-        border: 1px solid #707070;
-        background-color: #4d4dec ;
-        height: 50px;
-        width: 150px;
-        box-shadow: 1px 4px 4px rgba(53, 53, 53, 0.884);
-        border-radius: 45px;
-        font-size: medium;
-        font-weight: bold;
-        color: white;
-        margin-top: 11px;
     }
 
     .icon-email{
-        height: 18px;
         width: 100%;
-        position: absolute;
         right: -45px;
         top: 3105px;
     }
