@@ -121,11 +121,13 @@
     padding-bottom: 20px;
     padding-top: 70px;
 }
+
 .logouser{
     height: 40px;
     width: 40px;
     margin-right: 30px;
 }
+
 .skillsInside{
     color: #0B485D;
     font-size: 30px;
@@ -154,6 +156,7 @@
     height: 35px;
     width: 90px;
 }
+
 .listskills ul{
     display: flex;
     flex-direction: row;
@@ -162,6 +165,7 @@
     margin-left: 50px;
     margin-right: 25px;
 }
+
 .skillRight{
     margin-top: 167px;
     padding-top: 90px;
@@ -179,17 +183,20 @@
     margin-left: 50px;
     padding: 70px 50px 20px;
 }
+
 .title-tool{
     color: #0B485D;
     font-size: 30px;
     font-family: Segoe UI;
     font-weight: bold;
 }
+
 .icontool{
     height: 40px;
     width: 40px;
     margin-right: 30px;
 }
+
 .listtools ul{
     display: flex;
     flex-direction: column;
@@ -198,6 +205,7 @@
     text-align: justify;
     margin-left: 150px;
 }
+
 .listtools li{
     margin: 2px 5px 2px 5px;
     padding: 5px 2px 5px 2px;
@@ -211,12 +219,14 @@
     height: 500px;
     background-color: #29AFEB;
 }
+
 .presentation{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 150px;
 }
+
 .toolalign{
     display: flex;
     flex-direction: row;
@@ -226,13 +236,16 @@
     margin-bottom: 25px;
     border-bottom: 2px solid #000;
 }
+
 .texte-present h3{
     padding-left: 20px;
 }
+
 .logopresentation{
     width: 40px;
     height: 40px;
 }
+
 .texte-present h3{
     margin-bottom: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -241,32 +254,38 @@
     font-weight: bold;
     color: #0B485D; 
 }
+
 .texte-present p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
+
 .presentation-title{
         display: flex;
         flex-direction: row;
         justify-content: center;
 }
+
 .image-present{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: baseline;
 }
+
 .image-present img{
     width: 200px;
     height: 200px;
     margin-right: 55px;
 }
+
 .texte-present {
     display: flex;
     flex-direction: column;
     text-align: justify;
     width: 25%;
 }
+
 .creation{
     color: #0B485D;
     font-size: 35px;
@@ -274,6 +293,7 @@
     font-weight: bold;
     margin-top: 60px;
 }
+
 .bloc-creation{
     width: 100%;
     height: 600px;
@@ -286,10 +306,12 @@
 p{
     margin-top: 0px;
 }
+
 fieldset{
     margin-bottom: 15px;
     padding: 10px;
 }
+
 legend{
     padding: 0px 3px;
     font-weight: bold;
@@ -297,30 +319,37 @@ legend{
     font-size: 25px;
     margin: 8px auto;
 }
+
 label{
     width: 110px;
     display: inline-block;
     vertical-align: top;
     margin: 6px;
 }
+
 input:focus{
     background: #eaeaea;
 }
+
 input, textarea{
     height: 30px;
     border-radius: 8px;
     width: 200px;
 }
+
 textarea{
     height: 100px;
     width: 425px;
 }
+
 select{
     width: 254px;
 }
+
 input[type=submit]{
     width: 150px;
 }
+
 .form-contact{
       width: 100%;
       height: 500px;
@@ -329,6 +358,7 @@ input[type=submit]{
       flex-direction: column;
       align-content: center;
 }
+
 .form-contactin{
       display: flex;
       flex-direction: row;
@@ -336,6 +366,7 @@ input[type=submit]{
       margin-bottom: 15px;
       padding: 10px;
 }
+
 .name-email{
       display: flex;
       flex-direction: row;
@@ -344,24 +375,29 @@ input[type=submit]{
     display: flex;
     flex-direction: row;
 }
+
 .name{
       display: flex;
       flex-direction: column;
       padding-right: 25px;
 }
+
 .mail{
     display: flex;
     flex-direction: column;
 }
+
 .surname{
     display: flex;
     flex-direction: column;
     padding-right: 25px;
 }
+
 .tel{
     display: flex;
     flex-direction: column;
 }
+
 .message{
     display: flex;
     flex-direction: column;   
@@ -381,6 +417,7 @@ input[type=submit]{
     padding-right: 15px;
     margin-top: 11px;
 }
+
 input[type="submit"].bouton-envoyer:hover{
     border: 1px solid #707070;
     background-color: #4d4dec ;
@@ -393,6 +430,7 @@ input[type="submit"].bouton-envoyer:hover{
     color: white;
     margin-top: 11px;
 }
+
 .btn-align{
     display: flex;
     flex-direction: row;
@@ -419,20 +457,24 @@ input[type="submit"].bouton-envoyer:hover{
     padding-left: 40px;
     padding-top: 10px;
 }
+
 .design{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 .copyright-icon{
     height: 20px;
     width: 20px;
     padding-left: 8px;
 }
+
 .menu li a{
     text-decoration: none;
     color: white;
 }
+
 .logo li{
     height: 50px;
     list-style: none;
@@ -442,6 +484,7 @@ input[type="submit"].bouton-envoyer:hover{
     color: rgba(255,255,255,1);
     font-size:25px;
 }
+
 .logo img{
     padding-right: 30px;
     padding-left: 10px;
@@ -452,11 +495,14 @@ input[type="submit"].bouton-envoyer:hover{
     .menu{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
+
     .menu #myLinks{
         display: flex;
         flex-direction: row;
     }
+
     .menu li{
         font-family: Segoe UI;
         text-decoration: none;
@@ -466,18 +512,18 @@ input[type="submit"].bouton-envoyer:hover{
         padding: 20px;
         color: rgba(255,255,255,1);
     }
-    .header{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+
     .logo{
         display: flex;
         flex-direction: row;
-        justify-content: left;
     }
+
     .title{
         padding-top: 26px;
+    }
+
+    .icon{
+        display: none;
     }
 }
 
@@ -487,23 +533,34 @@ input[type="submit"].bouton-envoyer:hover{
         display: block;
         padding-bottom: 5px;
     }
+
     nav{
         text-align: left;
         position: static; /* La valeur par défaut */
         padding-bottom: 5px;
     }
+
     nav ul {
         margin-top: 0;
         padding-left: 10px;
     }
+
     .logo ul{
         display: flex;
         flex-direction: row;
     }
+
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .menu ul{
         display: flex;
         flex-direction: column;
     }
+
     .menu li{
         font-family: Segoe UI;
         text-decoration: none;
@@ -512,6 +569,17 @@ input[type="submit"].bouton-envoyer:hover{
         margin-top: 25px;
         padding: 20px;
         color: rgba(255,255,255,1);
+    }
+
+    .menu #myLinks{
+        background-color: orange;
+    }
+
+    .menu #myLinks{
+        border: thick double #32a1ce;    }
+
+    .icon{
+        display: none;
     }
 }
 
@@ -522,9 +590,11 @@ input[type="submit"].bouton-envoyer:hover{
         overflow: hidden;
         position: relative;
     }
+
     .menu #myLinks {
         display: none;
     }
+
     .menu a {
         color: white;
         padding: 14px 16px;
@@ -532,6 +602,7 @@ input[type="submit"].bouton-envoyer:hover{
         font-size: 17px;
         display: block;
     }
+
     .menu a.icon {
         background: black;
         display: block;
@@ -539,13 +610,16 @@ input[type="submit"].bouton-envoyer:hover{
         right: 0;
         top: 0;
     }
+
     .menu a:hover {
         background-color: #ddd;
         color: black;
     }
+
     .active {
         color: white;
     }
+
     .icon{
         display: none;
     }
@@ -557,15 +631,16 @@ input[type="submit"].bouton-envoyer:hover{
         flex-direction: column;
         justify-content: center;
     }
+
     .skillLeft {
         display: flexbox;
         flex-direction: row;
     } 
+
     .skillRight {
         display: flexbox;
         flex-direction: row;
     }
-    
     
     /* partie presentation */
     
@@ -575,6 +650,7 @@ input[type="submit"].bouton-envoyer:hover{
         align-items: center;
         width: 50%;
     }
+
     .texte-present h3{
         margin-bottom: 30px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -583,37 +659,42 @@ input[type="submit"].bouton-envoyer:hover{
         font-weight: bold;
         color: #0B485D; 
     }
+
     .presentation-title{
         display: flexbox;
         flex-direction: column;
         align-items: center;
     }
+
     .cadre{
         width: 50%;
         height: 700px;
         background-color: #29AFEB;
     }
+
     .image-present {
         display: flexbox;
         flex-direction: row;
         justify-content: center;
     }
+
     .image-present img{
         width: 100px;
         height: 100px;
         margin-right: 55px;
     }
      
-
      /* partie contact */
     
      p{
         margin-top: 0px;
     }
+
     fieldset{
         margin-bottom: 15px;
         padding: 10px;
     }
+
     legend{
         padding: 0px 3px;
         font-weight: bold;
@@ -622,39 +703,48 @@ input[type="submit"].bouton-envoyer:hover{
         margin: 8px auto;
         text-align: center;
     }
+
     label{
         width: 110px;
         display: inline-block;
         vertical-align: top;
         margin: 6px;
     }
+
     input:focus{
         background: #eaeaea;
     }
+
     input, textarea{
         height: 30px;
         border-radius: 8px;
         width: 150px;
     }
+
     .objet {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 20px;
     }
+
     .objet label {
         text-align: center;
     }
+
     textarea{
         height: 100px;
         width: 100%;
     }
+
     select{
         width: 100%;
     }
+
     input[type=submit]{
         width: 150px;
     }
+
     .form-contact{
           width: 100%;
           height: 800px;
@@ -663,6 +753,7 @@ input[type="submit"].bouton-envoyer:hover{
           flex-direction: column;
           align-content: center;
     }
+
     .form-contactin{
           display: flex;
           flex-direction: row;
@@ -670,36 +761,44 @@ input[type="submit"].bouton-envoyer:hover{
           margin-bottom: 15px;
           padding: 10px;
     }
+
     .name-email{
           display: flex;
           flex-direction: row;
     }
+
     .surname-tel{
         display: flex;
         flex-direction: row;
     }
+
     .name{
           display: flex;
           flex-direction: column;
           padding-right: 25px;
     }
+
     .mail{
         display: flex;
         flex-direction: column;
     }
+
     .surname{
         display: flex;
         flex-direction: column;
         padding-right: 25px;
     }
+
     .tel{
         display: flex;
         flex-direction: column;
     }
+
     .message{
         display: flex;
         flex-direction: column;   
     }
+
     .btn-align{
         display: flex;
         flex-direction: row;
@@ -707,6 +806,7 @@ input[type="submit"].bouton-envoyer:hover{
         align-content: center;
         margin-top: 40px;
     }
+
     .bouton-envoyer{
         border: 1px solid #707070;
         background-color: #29AFEB ;
@@ -720,6 +820,7 @@ input[type="submit"].bouton-envoyer:hover{
         
         margin-top: 11px;
     }
+
     input[type="submit"].bouton-envoyer:hover{
         border: 1px solid #707070;
         background-color: #4d4dec ;
@@ -732,6 +833,7 @@ input[type="submit"].bouton-envoyer:hover{
         color: white;
         margin-top: 11px;
     }
+
     .icon-email{
         height: 18px;
         width: 100%;
@@ -739,5 +841,4 @@ input[type="submit"].bouton-envoyer:hover{
         right: -45px;
         top: 3105px;
     }
-    
 }
