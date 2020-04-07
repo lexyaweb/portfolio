@@ -1,6 +1,5 @@
 <article>
         <div class="cadre">
-
             <div class="presentation-title" id="aboutUs-link">
                 <div class="presentation">
                     <div class="texte-present">
