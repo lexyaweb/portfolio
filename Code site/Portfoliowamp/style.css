@@ -1,5 +1,5 @@
 /* PEU IMPORTE LES DIMENSIONS DE L'ECRAN */
-*{ margin: 0; padding: 0; box-sizing: border-box; border: none; }
+*{ margin: 0px; padding: 0; box-sizing: border-box; border: none; }
 
 .background{
 	position: absolute;
@@ -23,6 +23,29 @@
     right: 20px;
     bottom: 20px;
     cursor: pointer;
+}
+
+/************************************************
+**                      MENU                   **
+************************************************/
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo li{
+    height: 50px;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 25px;
+    color: rgba(255,255,255,1);
+    font-size:25px;
+}
+
+.logo img{
+    padding-right: 30px;
+    padding-left: 10px;
 }
 
 /************************************************
@@ -115,19 +138,12 @@
     flex-direction: row;
 }
 
+/*******          COMPETENCE GAUCHE       *******/
 .skillLeft{
     margin-top: 167px;
     padding-top: 90px;
     background-color: #E1E1E1;
     height: 600px;
-    width: 50%;
-}
-
-.skillRight{
-    margin-top: 167px;
-    padding-top: 90px;
-    background-color:  #FFFFFF;
-    height: 400px;
     width: 50%;
 }
 
@@ -150,7 +166,6 @@
     font-weight: bold;
 }
 
-/* ------------------- BULLES COMPETENCES ---------------*/
 .listskills li{
     list-style: none;
     font-family: Segoe Script;
@@ -175,9 +190,15 @@
     margin-right: 25px;
 }
 
+/*******          COMPETENCE DROITE       *******/
+.skillRight{
+    margin-top: 167px;
+    padding-top: 90px;
+    background-color:  #FFFFFF;
+    height: 400px;
+    width: 50%;
+}
 
-
-/* ------------ ESPACE NOS OUTILS ------------- */
 .tool{
     display: flex;
     flex-direction: row;
@@ -187,17 +208,17 @@
     padding: 70px 50px 20px;
 }
 
+.icontool{
+    height: 40px;
+    width: 40px;
+    margin-right: 30px;
+}
+
 .title-tool{
     color: #0B485D;
     font-size: 30px;
     font-family: Segoe UI;
     font-weight: bold;
-}
-
-.icontool{
-    height: 40px;
-    width: 40px;
-    margin-right: 30px;
 }
 
 .listtools ul{
@@ -216,11 +237,19 @@
     font-weight: bold;
 }
 
-/* -------------- ZONE A PROPOS DE NOUS -------------------- */
+/************************************************
+**            ZONE A PROPOS DE NOUS            **
+************************************************/
 .cadre{
     width: 100%;
     height: 500px;
     background-color: #29AFEB;
+}
+
+.presentation-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .presentation{
@@ -230,19 +259,11 @@
     margin-top: 150px;
 }
 
-.toolalign{
+.texte-present {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 25px;
-    border-bottom: 2px solid #000;
-}
-
-.logopresentation{
-    width: 40px;
-    height: 40px;
+    flex-direction: column;
+    text-align: justify;
+    width: 25%;
 }
 
 .texte-present h3{
@@ -260,10 +281,19 @@
     font-weight: bolder;
 }
 
-.presentation-title{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+.toolalign{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #000;
+}
+
+.logopresentation{
+    width: 40px;
+    height: 40px;
 }
 
 .image-present{
@@ -278,13 +308,6 @@
     height: 200px;  
 }
 
-.texte-present {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    width: 25%;
-}
-
 .creation{
     color: #0B485D;
     font-size: 35px;
@@ -292,6 +315,10 @@
     font-weight: bold;
     margin-top: 60px;
 }
+
+/************************************************
+**                 NOS CREATIONS               **
+************************************************/
 
 .bloc-creation{
     width: 100%;
@@ -301,15 +328,24 @@
     justify-content: center;
 }
 
-/* ------------------ NOUS CONTACTER ------------------ */
-p{ margin-top: 0px; }
+/************************************************
+**                NOUS CONTACTER               **
+************************************************/
+.form-contact{
+    width: 100%;
+    height: 500px;
+    background-image:linear-gradient(60deg, #18bef5, #ac65f7);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 
-fieldset{
+.form-contact fieldset{
     margin-bottom: 15px;
     padding: 10px;
 }
 
-legend{
+.form-contact legend{
     padding: 0px 3px;
     font-weight: bold;
     font-variant: small-caps;
@@ -317,43 +353,34 @@ legend{
     margin: 8px auto;
 }
 
-label{
+.form-contact label{
     width: 110px;
     display: inline-block;
     vertical-align: top;
     margin: 6px;
 }
 
-input:focus{
+.form-contact input[type=submit]{
+    width: 150px;
+}
+
+.form-contact input:focus{
     background: #eaeaea;
 }
 
-input, textarea{
+.form-contact input, textarea{
     height: 30px;
     border-radius: 8px;
     width: 200px;
 }
 
-textarea{
+.form-contact textarea{
     height: 100px;
     width: 425px;
 }
 
-select{
+.form-contact select{
     width: 254px;
-}
-
-input[type=submit]{
-    width: 150px;
-}
-
-.form-contact{
-      width: 100%;
-      height: 500px;
-      background-image:linear-gradient(60deg, #18bef5, #ac65f7);
-      display: flex;
-      flex-direction: column;
-      align-content: center;
 }
 
 .form-contactin{
@@ -401,7 +428,7 @@ input[type=submit]{
     flex-direction: column;   
 }
 
-/* -------------------------- Bouton Envoyer ----------------------------------*/
+/*******          BOUTON ENVOYER       *******/
 .bouton-envoyer{
     border: 1px solid #707070;
     background-color: #29AFEB ;
@@ -444,7 +471,9 @@ input[type="submit"].bouton-envoyer:hover{
     top: 2894px;
 }
 
-/* --------------------- FOOTER ----------------- */
+/************************************************
+**                   FOOTER                    **
+************************************************/
 .footer{
     width: 100%;
     height: 50px;
@@ -468,28 +497,13 @@ input[type="submit"].bouton-envoyer:hover{
     padding-left: 8px;
 }
 
-.menu li a{
-    text-decoration: none;
-    color: white;
-}
+/************************************************
+**                MEDIA QUERIES                **
+************************************************/
 
-.logo li{
-    height: 50px;
-    list-style: none;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 25px;
-    color: rgba(255,255,255,1);
-    font-size:25px;
-}
-
-.logo img{
-    padding-right: 30px;
-    padding-left: 10px;
-}
-
-/* GRAND ECRAN */
+/*******         GRAND ECRAN       *******/
 @media screen and (min-width: 900px){
+    /************ MENU ***********/
     .menu{
         display: flex;
         flex-direction: row;
@@ -525,8 +539,9 @@ input[type="submit"].bouton-envoyer:hover{
     }
 }
 
-/* ECRAN TABLETTE */
+/*******    MOYEN ECRAN TYPE TABLETTE   *******/
 @media screen and (max-width: 900px){
+    /************ MENU ***********/
     nav li{
         display: block;
         padding-bottom: 5px;
@@ -557,6 +572,7 @@ input[type="submit"].bouton-envoyer:hover{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 0;
     }
 
     .menu li{
@@ -564,13 +580,13 @@ input[type="submit"].bouton-envoyer:hover{
         text-decoration: none;
         list-style: none;
         font-size: 20px;
-        padding: 20px;
         color: rgba(255,255,255,1);
     }
 
-    .menu #myLinks{
-        background-color: orange;
-        border: thick double #32a1ce;
+    .menu #myLinks li:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        
+        color:white;
     }
 
     .icon{
@@ -578,9 +594,9 @@ input[type="submit"].bouton-envoyer:hover{
     }
 }
 
-/* ECRAN SMARTPHONE */
+/*******   PETIT ECRAN TYPE SMARTPHONE  *******/
 @media screen and (max-width: 480px){
-    /* MENU */
+    /************ MENU ***********/
     .menu {
         overflow: hidden;
         position: relative;
@@ -615,12 +631,7 @@ input[type="submit"].bouton-envoyer:hover{
         color: white;
     }
 
-    .icon{
-        display: none;
-    }
-
-     /* compétence */
-
+    /************ COMPETENCES ***********/
     .skills {
         display: flex;
         flex-direction: column;
@@ -637,8 +648,7 @@ input[type="submit"].bouton-envoyer:hover{
         flex-direction: row;
     }
     
-    /* partie presentation */
-    
+    /************ PRESENTATION ***********/
     .texte-present p{
         display: flex;
         flex-direction: row;
@@ -672,7 +682,7 @@ input[type="submit"].bouton-envoyer:hover{
         height: 100px;
     }
      
-     /* partie contact */
+    /************ CONTACT ***********/
     legend{
         text-align: center;
     }
