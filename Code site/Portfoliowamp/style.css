@@ -37,6 +37,11 @@
     color:white;
 }
 
+.menuX #menuToggle a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;  
+}
+
 .logo li{
     height: 50px;
     list-style: none;
@@ -78,7 +83,7 @@
 /************************************************
 **               BOUTON PORTFOLIO              **
 ************************************************/
-.buttonPortfolio a{
+/*.buttonPortfolio a{
     border:2px solid rgb(104, 203, 236);
     border-radius: 45px;
     font-weight: bold;
@@ -98,7 +103,7 @@
 .buttonPortfolio a:hover{
     background-color: #0B485D;
     color: white;
-}
+} */
 
 /************************************************
 **                BOUTON FLECHE BAS            **
