@@ -63,7 +63,7 @@ about.addEventListener('click',function(){
 const btn = document.querySelector('.buttonUp');
 
 btn.addEventListener('click', () => {
-    smoothScroll('.header',1500);
+    smoothScroll('.logo-title',1500);
 });
 
 /* Menu hamburger */
