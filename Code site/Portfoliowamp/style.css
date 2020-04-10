@@ -37,11 +37,6 @@
     color:white;
 }
 
-.menuX #menuToggle a:hover {
-    border-bottom: 2px solid white;
-    padding-bottom: 5px;  
-}
-
 .logo li{
     height: 50px;
     list-style: none;
@@ -518,7 +513,10 @@ input[type="submit"].bouton-envoyer:hover{
         flex-direction: row;
         justify-content: space-between;
     }
-
+    .menuX #menuToggle a:hover {
+        border-bottom: 2px solid white;
+        padding-bottom: 5px;  
+    }
     .menuX #menu{
         display: flex;
         flex-direction: row;
@@ -634,6 +632,7 @@ display: block;
  #menuToggle a:hover
  {
    color: tomato;
+   border:none;
  }
  
  
