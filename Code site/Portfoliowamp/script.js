@@ -68,7 +68,7 @@ btn.addEventListener('click', () => {
 
 /* Menu hamburger */
 function myFunction() {
-    let x = document.getElementById("myLinks");
+    let x = document.getElementById("menuInterne");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {
@@ -76,3 +76,21 @@ function myFunction() {
     }
 }
 
+// Fonction exécutée au redimensionnement
+function redimensionnement() {
+    let x = document.getElementById("menuInterne");
+    if("matchMedia" in window) { // Détection
+      if(window.matchMedia("(min-width:480px)").matches) {
+        // Il y a de la place
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+      } else {
+        
+      }
+    }
+  }
+  // On lie l'événement resize à la fonction
+  window.addEventListener('resize', redimensionnement, false);
