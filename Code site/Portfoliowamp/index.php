@@ -12,9 +12,6 @@
     <div class="title1">
             <h1>FULLSTACK DEVELOPPEUR</h1>
             <h2>Une équipe pour réaliser tous vos projets</h2>
-            <div class="buttonPortfolio">
-                <p><a href="#">Portfolio</a></p>
-            </div>
         </div>
         <div class="buttondown">
             <div class="circle">
