@@ -322,17 +322,55 @@
     justify-content: center;
 }
 
+.contactin{
+    margin-right: 50px;
+    padding:30px;
+}
+
 input[type="text"].name_contact{
     border:1px solid black;
+    width:483px;
+    padding: 9.5px 30px;
+    margin-bottom: 4.8px;
+    background:rgba(255, 255, 255, 0.5);
+}
+
+input[type="text"].name_contact:focus{
 }
 
 input[type="mail"].mail_contact{
     border:1px solid black;
+    width:483px;
+    padding: 9.5px 30px;
+    margin-bottom: 4.8px;
+    background:rgba(255, 255, 255, 0.5);
 }
 
-textarea[type="text"].message_contact{
-    border:1px solid black;
+input[type="mail"].mail_contact:focus{
+    border-color: red;
 }
+
+input[type="text"].message_contact{
+    border:1px solid black;
+    width:483px;
+    padding: 9.5px 30px;
+    margin-bottom: 4.8px;
+    background:rgba(255, 255, 255, 0.5);
+    height:150px;
+}
+
+input[type="text"].message_contact:focus{
+    border-color: red;
+}
+
+
+
+
+
+
+
+
+
 
 
 
