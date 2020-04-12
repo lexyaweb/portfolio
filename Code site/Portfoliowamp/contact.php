@@ -2,10 +2,10 @@
     <form action="" method="POST"> 
         <fieldset class="form_contact">
             <legend>Contact</legend>
-            <div class="contact">
+            <div class="contactin">
                 <input type="text" class="name_contact" id="name" name="name" placeholder="Votre nom *"/><br/>
                 <input type="mail" class="mail_contact" id="mail" name="mail" placeholder="Votre mail *"/></br>
-                <textarea type="text" class="message_contact" id="message" name="message" placeholder="Votre message *"></textarea>
+                <input type="text" class="message_contact" id="message" name="message" placeholder="Votre message *"></textarea>
             </div>
             <div class="coordonnees">
                 test
@@ -13,6 +13,11 @@
         </fieldset>
     </form>
 </article>
+
+
+<div class="block">dqf</div>
+
+
 
 <!--<article class="form-contact">
     <div class="form-contactin">
