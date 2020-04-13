@@ -112,11 +112,11 @@
 /************************************************
 **               PARTIE COMPETENCES            **
 ************************************************/
-.skills{
+/*.skills{
     display: flex;
     flex-direction: row;
 }
-
+*/
 /*******          COMPETENCE GAUCHE       *******/
 .skillLeft{
     margin-top: 167px;
@@ -581,6 +581,10 @@ input[type="submit"].bouton-envoyer:hover{
     #menuToggle input[type=checkbox]{
         display: none;
     }
+    .skills{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 /*******    MOYEN ECRAN TYPE TABLETTE   *******/
@@ -748,28 +752,63 @@ input[type="submit"].bouton-envoyer:hover{
     }
 
     /************ COMPETENCES ***********/
+    .titleskills{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
     .skills {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+    .skillLeft{
+        width: 100%;
+    }
+    .titleskills{
+        margin-right: 8px;
+    }
+    .titleskills h2{
+        font-size: 27px;
+    }
+    .listskills ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .listskills li{
+        display: flex;
+        flex-direction: column;
+    }
+    .title-tool{
+        text-align: center;
+    }
+    .skillRight{
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
-
-    .skillLeft {
+    .tool{
         display: flex;
         flex-direction: row;
-    } 
-
-    .skillRight {
-        display: flex;
-        flex-direction: row;
+        width: 100%;
     }
-    
+    .listtools {
+        display:flex;
+        flex-direction: column;
+    }
+    .listtools li{
+        text-align: center;
+    }
     /************ PRESENTATION ***********/
     .texte-present p{
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 50%;
+        width: 100%;
     }
 
     .texte-present h3{
@@ -780,10 +819,11 @@ input[type="submit"].bouton-envoyer:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .cadre{
-        width: 50%;
+        width: 100%;
         height: 700px;
     }
 
