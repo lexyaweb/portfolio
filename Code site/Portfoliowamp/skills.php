@@ -4,13 +4,15 @@
             <img class="logouser" src="svg/toolcomp.svg" alt="logouser">
             <h2 class="skillsInside">Nos compétences</h2>
         </div>
-        <div class="listskills"><ul>
-            <li>Html</li>
-            <li>Css</li>
-            <li>Javascript</li>
-            <li>Php</li>
-            <li>Ui & Ux</li>
-        </ul></div>
+        <div class="listskills">
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+                <li>Php</li>
+                <li>Ui & Ux</li>
+            </ul>
+        </div>
     </section>
     <section class="skillRight">
         <div class="tool">
