@@ -335,8 +335,7 @@ input[type="text"].name_contact{
     background:rgba(255, 255, 255, 0.5);
 }
 
-input[type="text"].name_contact:focus{
-}
+
 
 input[type="mail"].mail_contact{
     border:1px solid black;
