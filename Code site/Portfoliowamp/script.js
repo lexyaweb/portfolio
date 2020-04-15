@@ -37,7 +37,7 @@ accueil.addEventListener('click',function() {
 let contact = document.querySelector('.contactlink'); 
 
 contact.addEventListener('click',function() {
-    smoothScroll('.form-contact', 2000);
+    smoothScroll('.contactin', 2000);
 });
 
 let footer = document.querySelector('#bottom-arrow');
