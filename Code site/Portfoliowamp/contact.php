@@ -15,7 +15,7 @@
 </article>
 
 
-<div class="block">dqf</div>
+<!-- <div class="block">dqf</div> -->
 
 
 
