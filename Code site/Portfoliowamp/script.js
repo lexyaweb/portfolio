@@ -43,7 +43,7 @@ contact.addEventListener('click',function() {
 let footer = document.querySelector('#bottom-arrow');
 
 footer.addEventListener('click',function() {
-    smoothScroll('.contactin', 2000);
+    smoothScroll('.footer', 2000);
 });
 
 let creation = document.querySelector('.creation-title');
