@@ -536,6 +536,9 @@ input[type="submit"].bouton-envoyer:hover{
 /*******         GRAND ECRAN       *******/
 @media screen and (min-width: 1023px){
     /************ MENU ***********/
+    .image-present img {
+        margin-right: 25px;
+    }
     .menuX{
         display: flex;
         flex-direction: row;
