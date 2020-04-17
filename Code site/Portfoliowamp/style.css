@@ -538,7 +538,10 @@ input[type="submit"].bouton-envoyer:hover{
     /************ MENU ***********/
     .image-present img {
         margin-right: 25px;
+        width: 150px;
+        height: 150px;
     }
+    
     .menuX{
         display: flex;
         flex-direction: row;
@@ -849,8 +852,16 @@ input[type="submit"].bouton-envoyer:hover{
         display:flex;
         flex-direction: column;
     }
+    .listtools ul{
+        text-align: justify;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    
     .listtools li{
-        text-align: center;
+        text-align: justify;
+        margin-left: 86px;
+        margin-right: 60px;
     }
     /************ PRESENTATION ***********/
     .texte-present p{
