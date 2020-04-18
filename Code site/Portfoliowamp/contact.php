@@ -5,17 +5,19 @@
             <div class="contactin">
                 <input type="text" class="name_contact" id="name" name="name" placeholder="Votre nom *"/><br/>
                 <input type="mail" class="mail_contact" id="mail" name="mail" placeholder="Votre mail *"/></br>
-                <input type="text" class="message_contact" id="message" name="message" placeholder="Votre message *"></textarea>
+                <input type="text" class="message_contact" id="message" name="message" placeholder="Votre message *"></textarea><br/>
+                <input class="btn-submit" type="submit" value="Envoyer" name="envoi"><img class="icon-email" src="svg/ic_email_24px.svg" alt="icon-email">
             </div>
             <div class="coordonnees">
-                test
+                <p class="coordonnees-title">Coordonnées</p><br/>
+                <p>Alexia Fontraille<br/>
+                07.69.86.89.53</p><br/>
+                <p>Yael Hue<br/>
+                07.81.28.51.47</p>
             </div>
         </fieldset>
     </form>
 </article>
-
-
-<div class="block">dqf</div>
 
 
 
@@ -56,4 +58,4 @@
             <span class="btn-align"><input class="bouton-envoyer" type="submit" value="Envoyer" name="envoi"><img class="icon-email" src="svg/ic_email_24px.svg" alt="icon-email"></span>
         </form>
     </div>
-</article>
+</article> -->
