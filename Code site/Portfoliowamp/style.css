@@ -310,6 +310,8 @@
 /************************************************
 **                NOUS CONTACTER               **
 ************************************************/
+
+/*********** FORMULAIRE ******/
 .contact{
     width: 100%;
     height: 500px;
@@ -332,10 +334,12 @@ input[type="text"].name_contact{
     width:483px;
     padding: 9.5px 30px;
     margin-bottom: 4.8px;
-    background:rgba(255, 255, 255, 0.5);
+    background:rgba(0,0,0, 0.5);
+    color:rgb(255,255,255);
 }
 
 input[type="text"].name_contact:focus{
+    border-color: red;
 }
 
 input[type="mail"].mail_contact{
@@ -343,7 +347,8 @@ input[type="mail"].mail_contact{
     width:483px;
     padding: 9.5px 30px;
     margin-bottom: 4.8px;
-    background:rgba(255, 255, 255, 0.5);
+    background:rgba(0,0,0, 0.5);
+    color:rgb(255,255,255);
 }
 
 input[type="mail"].mail_contact:focus{
@@ -355,7 +360,8 @@ input[type="text"].message_contact{
     width:483px;
     padding: 9.5px 30px;
     margin-bottom: 4.8px;
-    background:rgba(255, 255, 255, 0.5);
+    background:rgba(0,0,0, 0.5);
+    color:rgb(255,255,255);
     height:150px;
 }
 
@@ -363,145 +369,27 @@ input[type="text"].message_contact:focus{
     border-color: red;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.form-contact{
-    width: 100%;
-    height: 500px;
-    background-image:linear-gradient(60deg, #18bef5, #ac65f7);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
-.form-contact fieldset{
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-.form-contact legend{
-    padding: 0px 3px;
-    font-weight: bold;
-    font-variant: small-caps;
-    font-size: 25px;
-    margin: 8px auto;
-}
-
-.form-contact label{
-    width: 110px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 6px;
-}
-
-.form-contact input[type=submit]{
-    width: 150px;
-}
-
-.form-contact input:focus{
-    background: #eaeaea;
-}
-
-.form-contact input, textarea{
-    height: 30px;
-    border-radius: 8px;
-    width: 200px;
-}
-
-.form-contact textarea{
-    height: 100px;
-    width: 425px;
-}
-
-.form-contact select{
-    width: 254px;
-}
-
-.form-contactin{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin-bottom: 15px;
-      padding: 10px;
-}
-
-.name-email{
-      display: flex;
-      flex-direction: row;
-}
-
-.surname-tel{
-    display: flex;
-    flex-direction: row;
-}
-
-.name{
-      display: flex;
-      flex-direction: column;
-      padding-right: 25px;
-}
-
-.mail{
-    display: flex;
-    flex-direction: column;
-}
-
-.surname{
-    display: flex;
-    flex-direction: column;
-    padding-right: 25px;
-}
-
-.tel{
-    display: flex;
-    flex-direction: column;
-}
-
-.message{
-    display: flex;
-    flex-direction: column;   
+.btn-submit{
+    border:1px solid black;
+    width:483px;
+    padding: 9.5px 30px;
+    margin-bottom: 4.8px;
+    background:rgba(0,0,0, 0.5);
+    color:rgb(255,255,255);
 }
 
 /*******          BOUTON ENVOYER       *******/
-input[type="submit"].bouton-envoyer{
-    border: 1px solid #707070;
-    background-color: #29AFEB;
-    height: 50px;
-    width: 150px;
-    box-shadow: 1px 4px 4px rgba(53, 53, 53, 0.884);
-    border-radius: 45px;
-    font-size: medium;
-    font-weight: bold;
-    color: white;
-    margin-top: 11px;
-}
-
-input[type="submit"].bouton-envoyer:hover{
-    background-color: #4d4dec;
-}
-
-.btn-align{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-}
-
 .icon-email{
     height: 18px;
     width: 20px;
     position: absolute;
     right: 884px;
     top: 2894px;
+}
+ 
+/*********        COORDONNEES          *******/
+.coordonnees-title{
+    font: bold 40px serif;
 }
 
 /************************************************
@@ -824,18 +712,6 @@ input[type="submit"].bouton-envoyer:hover{
     }
 
     select{
-        width: 100%;
-    }
-
-    .form-contact{
-          height: 800px;
-    }
-
-    .btn-align{
-        margin-top: 40px;
-    }
-
-    .bouton-envoyer{
         width: 100%;
     }
 
