@@ -31,19 +31,19 @@ function smoothScroll(target,duration) {
 let accueil = document.querySelector('.Accueil'); 
 
 accueil.addEventListener('click',function() {
-    smoothScroll('.comp', 2000);
+    smoothScroll('.titleskills', 2000);
 });
 
 let contact = document.querySelector('.contactlink'); 
 
 contact.addEventListener('click',function() {
-    smoothScroll('.form-contact', 2000);
+    smoothScroll('.contactin', 2000);
 });
 
 let footer = document.querySelector('#bottom-arrow');
 
 footer.addEventListener('click',function() {
-    smoothScroll('.design', 2000);
+    smoothScroll('.footer', 2000);
 });
 
 let creation = document.querySelector('.creation-title');
