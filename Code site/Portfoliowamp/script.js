@@ -24,9 +24,9 @@ function smoothScroll(target,duration) {
         return -c / 2 * (t * (t - 2) - 1) + b;
     }
     requestAnimationFrame(animation);
+
+
 }
-
-
 
 let accueil = document.querySelector('.Accueil'); 
 
