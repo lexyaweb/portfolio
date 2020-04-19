@@ -844,6 +844,9 @@ input[type="text"].message_contact:focus{
         right: -45px;
         top: 3105px;
     }
+    .form_contact{
+        width: 100%;
+    }
 }
 
 
