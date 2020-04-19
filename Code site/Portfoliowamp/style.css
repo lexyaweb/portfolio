@@ -491,10 +491,16 @@ input[type="text"].message_contact:focus{
         justify-content: center;
     }
     .form_contact{
-        padding-top: 72px;
+        padding-top: 38px;
     }
     .coordonnees{
-        padding-top: 22px;
+        padding-top: 80px;
+    }
+    .contact-txt {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 25px;
     }
 }
 
@@ -699,7 +705,9 @@ input[type="text"].message_contact:focus{
     .title1 h1{
         margin:340px;
     }
-
+    .title1 h2{
+        display: none;
+    }
     .buttondown .circle{
         position: absolute;
         top: 720px;
