@@ -23,7 +23,7 @@
         </div>
         <div class="buttondown">
             <div class="circle">
-                <a><img id="bottom-arrow" src="Img/Icon - Keyboard Arrow - Up - Dark.svg" alt="arrow down"></a>
+                <a href="#"><img id="bottom-arrow" src="Img/Icon - Keyboard Arrow - Up - Dark.svg" alt="arrow down"></a>
             </div>
         </div>
     </header>
