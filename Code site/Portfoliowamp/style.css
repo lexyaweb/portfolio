@@ -586,7 +586,7 @@ input[type="text"].message_contact:focus{
     .titleskills{
         display: flex;
         flex-direction: row;
-        justify-content: baseline;
+        /*justify-content: baseline;*/
     }
     .skillLeft{
         margin-top: 116px;
