@@ -10,16 +10,7 @@
 <body>
     <?php include ("connect.php"); ?>
     <?php require ("menu.php"); ?>
-    <div class="title1">
-            <h1>FULLSTACK DEVELOPPEUR</h1>
-            <h2>Une équipe pour réaliser tous vos projets</h2>
-        </div>
-        <div class="buttondown">
-            <div class="circle">
-                <a href="#bottom-page"><img id="bottom-arrow" src="Img/Icon - Keyboard Arrow - Up - Dark.svg" alt="arrow down"></a>
-            </div>
-        </div>
-    </header>
+  
     <?php require ("skills.php"); ?>
     <?php require ("presentation.php"); ?>
 
