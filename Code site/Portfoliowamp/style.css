@@ -490,6 +490,12 @@ input[type="text"].message_contact:focus{
         flex-direction: row;
         justify-content: center;
     }
+    .form_contact{
+        padding-top: 72px;
+    }
+    .coordonnees{
+        padding-top: 22px;
+    }
 }
 
 /*******    MOYEN ECRAN TYPE TABLETTE   *******/
