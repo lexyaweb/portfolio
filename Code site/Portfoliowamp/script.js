@@ -4,7 +4,7 @@ function smoothScroll(target,duration) {
     let startPosition = window.pageYOffset;
     let distance = targetPosition - startPosition;
     let startTime = null;
-    console.log(startPosition);
+    
 
 
 
