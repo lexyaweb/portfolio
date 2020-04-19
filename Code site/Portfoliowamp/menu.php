@@ -1,5 +1,5 @@
 <img src="svg/arrow-up-solid.svg" class="buttonUp">
-<header>
+<header class="header">
     <img class="background" src="Img/mountain.jpg" alt="background 4k">   
     <nav role="navigation" class="menuX">
         <ul class="logo active">
