@@ -28,9 +28,9 @@ function smoothScroll(target,duration) {
 
 
 
-let home = document.querySelector('.Accueil'); 
+let accueil = document.querySelector('.Accueil'); 
 
-home.addEventListener('click',function() {
+accueil.addEventListener('click',function() {
     smoothScroll('.titleskills', 2000);
 });
 
