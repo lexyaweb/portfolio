@@ -1,8 +1,8 @@
 <article class="contact">
     <form action="" method="POST"> 
         <fieldset class="form_contact">
-            <legend>Contact</legend>
             <div class="contactin">
+                <div class="contact-txt"><p>Contact</p></div>
                 <input type="text" class="name_contact" id="name" name="name" placeholder="Votre nom *"/><br/>
                 <input type="mail" class="mail_contact" id="mail" name="mail" placeholder="Votre mail *"/></br>
                 <input type="text" class="message_contact" id="message" name="message" placeholder="Votre message *"></textarea><br/>
