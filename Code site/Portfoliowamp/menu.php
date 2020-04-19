@@ -17,6 +17,16 @@
             </ul>
         </div>
     </nav>
+    <div class="title1">
+            <h1>FULLSTACK DEVELOPPEUR</h1>
+            <h2>Une équipe pour réaliser tous vos projets</h2>
+        </div>
+        <div class="buttondown">
+            <div class="circle">
+                <a><img id="bottom-arrow" src="Img/Icon - Keyboard Arrow - Up - Dark.svg" alt="arrow down"></a>
+            </div>
+        </div>
+    </header>
 
 <!-- 
             <nav class="menu">
