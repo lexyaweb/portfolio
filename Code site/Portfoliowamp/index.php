@@ -14,11 +14,6 @@
     <?php require ("skills.php"); ?>
     <?php require ("presentation.php"); ?>
 
-    <article>
-        <div class="bloc-creation">
-            <h3 class="creation" id="creation-link">Nos créations</h3>
-        </div>
-    </article>
  
  
     <?php require("contact.php"); ?>
