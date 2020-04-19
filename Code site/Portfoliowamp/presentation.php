@@ -22,3 +22,8 @@
 
         </div>
     </article>
+    <article>
+        <div class="bloc-creation">
+            <h3 class="creation" id="creation-link">Nos créations</h3>
+        </div>
+    </article>
