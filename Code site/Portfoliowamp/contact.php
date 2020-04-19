@@ -6,7 +6,7 @@
                 <input type="text" class="name_contact" id="name" name="name" placeholder="Votre nom *"/><br/>
                 <input type="mail" class="mail_contact" id="mail" name="mail" placeholder="Votre mail *"/></br>
                 <input type="text" class="message_contact" id="message" name="message" placeholder="Votre message *"></textarea><br/>
-                <input class="btn-submit" type="submit" value="Envoyer" name="envoi"><img class="icon-email" src="svg/ic_email_24px.svg" alt="icon-email">
+                <input class="btn-submit" type="submit" value="Envoyer" name="envoi">
             </div>
             <div class="coordonnees">
                 <p class="coordonnees-title">Coordonnées</p><br/>
