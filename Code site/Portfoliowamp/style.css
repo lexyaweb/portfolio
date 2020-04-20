@@ -112,11 +112,7 @@
 /************************************************
 **               PARTIE COMPETENCES            **
 ************************************************/
-/*.skills{
-    display: flex;
-    flex-direction: row;
-}
-*/
+
 /*******          COMPETENCE GAUCHE       *******/
 .skillLeft{
     margin-top: 167px;
@@ -422,7 +418,7 @@ input[type="text"].message_contact:focus{
 ************************************************/
 
 /*******         GRAND ECRAN       *******/
-@media screen and (min-width: 1023px){
+@media screen and (min-width: 1026px){
     /************ MENU ***********/
     .image-present img {
         margin-right: 25px;
