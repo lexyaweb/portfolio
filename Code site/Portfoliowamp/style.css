@@ -511,7 +511,7 @@ input[type="text"].message_contact:focus{
         margin-left: 111px;
         margin-right: 61px;
     }
-    }
+    
     .menuX{
         text-align: left;
         position: static;
@@ -624,7 +624,7 @@ input[type="text"].message_contact:focus{
         transition: color 0.3s ease;
     }
     
-    #menuToggle a:hover{
+    .menuX #menuToggle a:hover{
         color: tomato;
     }
     
