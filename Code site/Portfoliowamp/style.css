@@ -511,7 +511,11 @@ input[type="text"].message_contact:focus{
         display:flex;
         flex-direction: column;
     }
-
+    .listtools{
+        margin-left: 111px;
+        margin-right: 61px;
+    }
+    }
     .menuX{
         text-align: left;
         position: static;
@@ -586,7 +590,6 @@ input[type="text"].message_contact:focus{
     .titleskills{
         display: flex;
         flex-direction: row;
-        /*justify-content: baseline;*/
     }
     .skillLeft{
         margin-top: 116px;
@@ -778,12 +781,16 @@ input[type="text"].message_contact:focus{
     }
     /************ PRESENTATION ***********/
     .texte-present p{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
+        width: 70%;
+        text-align: justify;
+        margin-left: 57px;
     }
-
+    .texte-present{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .texte-present h3{
         font-size: 20px;
     }
@@ -794,6 +801,11 @@ input[type="text"].message_contact:focus{
         align-items: center;
         width: 100%;
     }
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     .cadre{
         width: 100%;
@@ -803,7 +815,8 @@ input[type="text"].message_contact:focus{
     .image-present {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 25px;
     }
 
     .image-present img{
@@ -843,9 +856,6 @@ input[type="text"].message_contact:focus{
         width: 100%;
         right: -45px;
         top: 3105px;
-    }
-    .form_contact{
-        width: 100%;
     }
 }
 
