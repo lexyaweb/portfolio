@@ -501,13 +501,13 @@ input[type="text"].message_contact:focus{
 }
 
 /*******    MOYEN ECRAN TYPE TABLETTE   *******/
-@media screen and (min-width: 480px) and (max-width: 1022px){
+@media screen and (min-width: 480px) and (max-width: 1024px){
     /************ MENU ***********/
     header{
         display:flex;
         flex-direction: column;
     }
-    .listtools{
+    .listtools ul{
         margin-left: 111px;
         margin-right: 61px;
     }
