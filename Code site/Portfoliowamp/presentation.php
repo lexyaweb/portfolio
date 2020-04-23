@@ -8,9 +8,11 @@
                             <h3>A propos de nous</h3>
                         </div>
                         <div class="present-text">
-                        <p>Alexia & Yael HUE, respectivement 26 et 32 ans, nous sommes 2 développeur, en plein apprentissage.
-                        Back end et front end rien ne nous échappe !
-                        Nous sommes originaire du sud de la de la France.</p>
+                        <p>Nous sommes Alexia et Yael HUE, respectivement
+                        26 et 32 ans, originaires du sud de la France.
+                        Si nous sommes actuellement deux développeurs
+                        encore en apprentissage, le back et frontend
+                        n’auront bientôt plus de secret pour nous !</p>
                         </div>
                     </div>
                     <div class="image-present">
