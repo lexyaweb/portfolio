@@ -20,8 +20,8 @@
             <h2 class="title-tool">Nos Outils</h2>
         </div>
         <div class="listtools"><ul>
-            <li>Système : Linux, Windows, Git, Github</li>
-            <li>Logiciel : Adobe XD, Illustrator, Photoshop, Lightroom</li>
+            <li>Systèmes : Linux, Windows, Git, Github</li>
+            <li>Logiciels : Adobe XD, Illustrator, Photoshop, Lightroom</li>
             <li>Bureautique : Openoffice, Excell</li>
         </ul></div>
     </section>
