@@ -1,5 +1,5 @@
 <article class="contact">
-    <form action="" method="POST"> 
+    <form action="mail.php" method="POST"> 
         <fieldset class="form_contact">
             <div class="contactin">
                 <div class="contact-txt"><p>Contact</p></div>
