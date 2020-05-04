@@ -24,7 +24,7 @@
         $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
         $entete .= 'From: ' . $_POST['mail'] . "\r\n";
 
-        $message = '<h1>lexyaweb.com</h1>
+        $message = '<h1>lexya-web.com</h1>
         <p><b>Nom : </b>' . $_POST['name'] . '<br>
         <b>Email : </b>' . $_POST['mail'] . '<br>
         <b>Message : </b>' . $_POST['message'] . '</p>';
@@ -34,20 +34,5 @@
             echo '<p>Votre message a bien été envoyé.</p>';
         }
     }
-    ?>
-
-    <?php
-    /*if (isset($_POST['message'])) {
-        $position_arobase = strpos($_POST['mail'], '@');
-        if ($position_arobase === false)
-            echo '<p>Votre email doit comporter un arobase.</p>';
-        else {
-            $retour = mail('afontraille@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['mail']);
-            if($retour)
-                echo '<p>Votre message a été envoyé.</p>';
-            else
-                echo '<p>Erreur.</p>';
-        }
-    }*/
     ?>
 </article>
