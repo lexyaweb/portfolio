@@ -6,9 +6,11 @@
 
 <body>
     <?php
-    $retour = mail('afontraille@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From : webmaster@monsite.fr');
+    $retour = mail('afontraille@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From : ' $_POST['mail']);
     if ($retour) {
         echo '<p>Votre message a bien été envoyé.</p>';
+    } else {
+        echo 'Votre message n\'a pas fonctionné';
     }
     ?>
 </body>
