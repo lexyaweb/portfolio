@@ -15,14 +15,16 @@
         </div>
     </section>
     <section class="skillRight">
-        <div class="tool">
-            <img class="icontool" src="svg/Icontool.svg" alt="Icon tool">
-            <h2 class="title-tool">Nos Outils</h2>
+        <div class="intro-texte">
+            <div class="tool">
+                <img class="icontool" src="svg/Icontool.svg" alt="Icon tool">
+                <h2 class="title-tool">Nos Outils</h2>
+            </div>
+            <div class="listtools"><ul>
+                <li>Systèmes : Linux, Windows, Git, Github</li>
+                <li>Logiciels : Adobe XD, Illustrator, Photoshop, Lightroom</li>
+                <li>Bureautique : Openoffice, Excell</li>
+            </ul></div>
         </div>
-        <div class="listtools"><ul>
-            <li>Systèmes : Linux, Windows, Git, Github</li>
-            <li>Logiciels : Adobe XD, Illustrator, Photoshop, Lightroom</li>
-            <li>Bureautique : Openoffice, Excell</li>
-        </ul></div>
     </section>
 </section>
