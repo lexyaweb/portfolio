@@ -478,6 +478,10 @@ input[type="text"].message_contact:focus{
     .cadre{
         height: 700px;
     }
+    .texte-present {
+        width: 30%;
+    }
+
     .titleskills{
         display: flex;
         flex-direction: row;
