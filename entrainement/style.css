@@ -1,0 +1,49 @@
+.imgCarousel{
+    width: 600px;
+    height: 450px;
+}
+
+.imgMod{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    overflow: hidden;
+}
+.parentArrow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.arrowLeft{
+    cursor: pointer;
+    position: absolute;
+    left: 25px;
+    width: auto;
+    height: 25px;
+    padding: 16px;
+    color: white;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .arrowRight{
+    cursor: pointer;
+    position: absolute;
+    left:540px;
+    width: auto;
+    height: 25px;
+    margin-right: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
