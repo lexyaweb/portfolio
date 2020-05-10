@@ -478,9 +478,6 @@ input[type="text"].message_contact:focus{
     .cadre{
         height: 700px;
     }
-    .texte-present {
-        width: 25%;
-    }
     .titleskills{
         display: flex;
         flex-direction: row;
@@ -498,6 +495,7 @@ input[type="text"].message_contact:focus{
         font-weight: bold;
         padding-bottom: 25px;
     }
+
 }
 
 /*******    MOYEN ECRAN TYPE TABLETTE   *******/
